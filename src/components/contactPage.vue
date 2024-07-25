@@ -32,7 +32,7 @@
         align-items: center;
     }
 }
-@media(max-width: 426px) {
+@media(max-width: 428px) {
     .contact{
         width: 107.5%;
     }

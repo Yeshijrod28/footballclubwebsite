@@ -52,7 +52,7 @@
     width: 45%;
     margin: 1rem;
 }
-@media(max-width: 768px) {
+@media(max-width: 811px) {
     .hero {
         height: 80vh;
     }

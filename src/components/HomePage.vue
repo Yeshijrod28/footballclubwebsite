@@ -35,12 +35,12 @@
     color: black;
     font-size: 2rem;
 }
-@media(max-width: 770px) {
+@media(max-width: 811px) {
     .hero {
-        height: 80vh;
+        height: 60vh;
     }
     .hero .heading {
-        top: 60%;
+        top: 50%;
         width: 80%;
         max-width: 300px;
     }
@@ -56,6 +56,7 @@
     .hero{
         height: 50vh;
         margin-right: -2rem;
+        margin-left: -5.5rem;
     }
     .hero .heading{
         top: 40%;

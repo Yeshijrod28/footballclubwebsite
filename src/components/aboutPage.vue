@@ -34,7 +34,7 @@
     padding: 1rem;
     color: white;
 }
-@media(max-width: 768px) { 
+@media(max-width: 811px) { 
     .about-container {
         flex-direction: column;
         align-items: center;
