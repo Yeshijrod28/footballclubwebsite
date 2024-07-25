@@ -53,12 +53,12 @@
 }
 @media (max-width: 481px) {
     .hero{
-        height: 50vh;
+        height: 35vh;
         margin-right: -2rem;
     }
     .hero .heading{
-        top: 40%;
-        max-width: 240px;
+        top: 30%;
+        max-width: 200px;
         padding: 0.1rem;
     }
     .hero .heading h1 {
@@ -76,11 +76,11 @@
 }
 @media (max-width:321px){ 
     .hero .heading{
-        top: 30%;
+        top: 25%;
         max-width: 160px;
     }
     .hero{
-        height: 40vh;
+        height: 30vh;
         margin-right: -2rem;
     }
 }
