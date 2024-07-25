@@ -12,7 +12,7 @@
         </div>
         <video width="640" height="360" autoplay muted loop controls poster="../assets/img/item1.MOV">
             <source src="../assets/img/item1.mp4" type="video/mp4">
-            <source src="../assets/img/item1.ogc" type="video/ogg">
+            <source src="../assets/img/item1.ogg" type="video/ogg">
             <source src="../assets/img/item1.webm" type="video/webm">
             Your browser does not support the video tag.
         </video>
