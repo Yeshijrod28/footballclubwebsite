@@ -56,7 +56,7 @@
     .hero{
         height: 50vh;
         margin-right: -2rem;
-        margin-left: -4.5rem;
+        margin-left: -4.2rem;
     }
     .hero .heading{
         top: 40%;
