@@ -14,7 +14,7 @@
 <style scoped>
 
 .matches{
-    margin:2rem 0;
+    margin:1rem 0;
     background-color: #000;
     color: white;
 }
@@ -37,8 +37,10 @@
     }
 }
 @media (max-width: 481px) {
+    .matches{
+        width: 107.5%;
+    }
     .matches ul li{
-        text-align: left;
         font-size: 0.9rem;
     }
     .matches h2 {
@@ -46,9 +48,16 @@
     }
 }
 @media (max-width:376px){ 
+    .matches{
+        width: 108.5%;
+    }
     .matches ul li{
         font-size: 0.65rem;
     }
 }
-
+@media (max-width: 321px) {
+    .matches{
+        width: 110%;
+    }
+}
 </style>

@@ -13,7 +13,6 @@
 <style scoped>
 .contact{
     text-align: center;
-    margin: 2rem;
     background-color: #ffec00;
 }
 .contact ul{
@@ -31,6 +30,21 @@
     .contact ul {
         flex-direction: column;
         align-items: center;
+    }
+}
+@media(max-width: 426px) {
+    .contact{
+        width: 107.5%;
+    }
+}
+@media(max-width: 376px) {
+    .contact{
+        width: 108.5%;
+    }
+}
+@media (max-width: 321px) {
+    .contact{
+        width: 110%;
     }
 }
 </style>

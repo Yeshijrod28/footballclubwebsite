@@ -5,6 +5,7 @@
             <p>Just play. Have fun. Enjoy the game.</p>
         </div>
     </div>
+    <hr style="height: 1rem;">
 </template>
 
 <style scoped>
@@ -12,14 +13,14 @@
 .hero{
     background: url('../assets/img/bg.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
     width: auto;
     margin-bottom: 0;
 }
 .hero .heading {
     position: absolute;
     left: 50%;
-    top: 90%;
+    top: 100%;
     transform: translateY(-50%);
     background-color: #ffec00;
     opacity: 0.7;
@@ -34,7 +35,7 @@
     color: black;
     font-size: 2rem;
 }
-@media(max-width: 768px) {
+@media(max-width: 770px) {
     .hero {
         height: 80vh;
     }
@@ -53,11 +54,11 @@
 }
 @media (max-width: 481px) {
     .hero{
-        height: 35vh;
+        height: 50vh;
         margin-right: -2rem;
     }
     .hero .heading{
-        top: 30%;
+        top: 40%;
         max-width: 200px;
         padding: 0.1rem;
     }
@@ -76,11 +77,11 @@
 }
 @media (max-width:321px){ 
     .hero .heading{
-        top: 25%;
+        top: 35%;
         max-width: 160px;
     }
     .hero{
-        height: 30vh;
+        height: 45vh;
         margin-right: -2rem;
     }
 }

@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #1a1a1a;
 }
 .gallery h1{
     text-align: center;
@@ -48,7 +49,7 @@
     display: flex;
 }
 .gallery .image-container2 img{
-    width: 50%;
+    width: 45%;
     margin: 1rem;
 }
 @media(max-width: 768px) {
@@ -94,6 +95,9 @@
     }
 }
 @media (max-width: 481px) {
+    .gallery{
+        width: 107.5%;
+    }
     .gallery h1 {
         font-size: 1rem;
     }
@@ -109,6 +113,27 @@
     .gallery .image-container2 img {
         width: 100%;
         max-width: 380px;
+    }
+}
+@media (max-width: 376px) {
+    .gallery{
+        width: 108.5%;
+    }
+}
+@media (max-width: 376px) {
+    .gallery img{
+        width: 90%;
+    }
+    .gallery .image-container2 img{
+        width: 90%;
+    }
+    .gallery video{
+        width: 90%;
+    }
+}
+@media (max-width: 321px) {
+    .gallery{
+        width: 110%;
     }
 }
 </style>

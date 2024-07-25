@@ -17,3 +17,8 @@ import contactPage from '../components/contactPage.vue'
     <matchesPage/>
     <contactPage/>
 </template>
+<style scoped>
+template{
+    background-color: #1a1a1a;
+}
+</style>

@@ -6,6 +6,7 @@
         <p>Welcome to the DTU Drukpas Football Club official page! Established in 2021, our team has been a cornerstone of pride and excellence. Over the years, we have cultivated a rich tradition of sportsmanship, teamwork, and competitive spirit. Our dedicated and talented players are committed to maintaining the highest standards on and off the field, fostering a culture of growth, discipline, and community engagement. Whether you're a student, alumni, or fan, we invite you to join us in celebrating the passion and spirit of DTU Drukpas football. Palden Drukpa Gyelo!! </p>
         </div>
     </div>
+    <hr style="height: 1rem;">
 </template>
 
 <style scoped>
@@ -29,7 +30,7 @@
 .about-container p{
     display: block;
     font-size: 1rem;
-    margin: 2rem;
+    margin: 1rem;
     padding: 1rem;
     color: white;
 }
@@ -42,8 +43,25 @@
         font-size: 0.9rem;
 }}
 @media (max-width: 481px) {
+    .about{
+        width: 107.5%;
+    }
+    .about-container img{
+        height: 30vh;
+        margin: 0;
+    }
     .about-container p {
         font-size: 0.8rem;
+    }
+}
+@media (max-width: 376px) {
+    .about{
+        width: 108.5%;
+    }
+}
+@media (max-width: 321px) {
+    .about{
+        width: 110%;
     }
 }
 

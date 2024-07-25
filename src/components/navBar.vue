@@ -44,14 +44,20 @@ nav ul img{
     border-radius:50% ;
 }
 @media (max-width: 481px) {
+    nav{
+        height: 35px;
+    }
     nav ul li{
-        margin: 1rem 0.2rem;
+        margin: 0.7rem 0.2rem;
         font-size: 0.7rem;
     }
 }
 @media (max-width: 321px) {
+    nav{
+        height: 30px;
+    }
     nav ul li{
-        margin: 1rem 0.1rem;
+        margin: 0.6rem 0.1rem;
         font-size: 0.6rem;
     }
 }

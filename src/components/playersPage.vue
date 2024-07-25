@@ -213,7 +213,9 @@
 </script>
 
 <style scoped>
-
+.players{
+background-color: #1a1a1a;
+}
 .players h2{
     text-align: center;
     font-size: 2rem;
@@ -351,11 +353,25 @@
     }
 }
 @media (max-width: 481px) {
+    .players{
+        width: 107.5%;
+    }
     .player-card {
         width: 100%;
         max-width: 180px;
         max-height: 300px;
     }
 }
+@media (max-width: 376px) {
+    .players{
+        width: 108.5%;
+    }
+}
+@media (max-width: 321px) {
+    .players{
+        width: 110%;
+    }
+}
+
 
 </style>
