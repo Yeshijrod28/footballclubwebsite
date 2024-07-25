@@ -10,7 +10,7 @@
             <img src="../assets/img/item5.jpg" alt="">
             <img src="../assets/img/item6.jpg" alt="">
         </div>
-        <video width="640" height="360" autoplay muted loop controls poster="../assets/item1.MOV">
+        <video width="640" height="360" autoplay muted loop controls poster="../assets/img/item1.MOV">
             <source src="../assets/img/item1.MOV" type="video/mp4">
             <source src="../assets/img/item1.MOV" type="video/ogg">
             <source src="../assets/img/item1.MOV" type="video/webm">
