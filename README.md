@@ -1,36 +1,23 @@
-Dtudrukpas FC – Vue Project
+# FOOTBALL CLUB WEBSITE 🏟️
 
-Live Demo: https://dtudrukpasfc.netlify.app/
+![Website](https://dtudrukpasfc.netlify.app/)
 
-Description:
-A fun frontend football club website built with Vue.js to practice component-based development and modern frontend workflows. The site is deployed on Netlify for seamless hosting and continuous deployment.
+## Description
+A fun frontend football club website built with Vue.js to practice component-based development and modern frontend workflows. Deployed on Netlify for seamless hosting.
 
-🏆 Features
+## Features
+- Home page with club overview
+- About section
+- Players page with individual player cards
+- Gallery of team photos
+- Matches section
+- Contact form
 
-Home Page: Overview of the club with engaging visuals and introductory text.
+## Technologies
+- Vue.js (Vue 3)
+- HTML, CSS, JavaScript
+- Netlify (deployment)
 
-About: Information about the club's history and mission.
-
-Players: Individual player profiles displayed as cards, showcasing team members.
-
-Gallery: A collection of team photos and events.
-
-Matches: past match details.
-
-Contact: Contact details for inquiries and feedback.
-
-⚙️ Technologies Used
-
-Frontend: Vue.js (Vue 3 Composition API)
-
-Styling: CSS (Scoped styles, Flexbox, Grid)
-
-Deployment: Netlify (Continuous deployment from GitHub)
-
-📌 Notes
-
-This project is a frontend-only application with no backend or database integration.
-
-Built to practice Vue.js and modern frontend development practices.
-
-Deployed on Netlify for easy hosting and continuous deployment.
+# Notes
+-Purely frontend; no backend integration
+-Built to practice Vue.js and responsive design
