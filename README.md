@@ -1,29 +1,36 @@
-# footballwebsite
+Dtudrukpas FC – Vue Project
 
-This template should help get you started developing with Vue 3 in Vite.
+Live Demo: https://dtudrukpasfc.netlify.app/
 
-## Recommended IDE Setup
+Description:
+A fun frontend football club website built with Vue.js to practice component-based development and modern frontend workflows. The site is deployed on Netlify for seamless hosting and continuous deployment.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+🏆 Features
 
-## Customize configuration
+Home Page: Overview of the club with engaging visuals and introductory text.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+About: Information about the club's history and mission.
 
-## Project Setup
+Players: Individual player profiles displayed as cards, showcasing team members.
 
-```sh
-yarn
-```
+Gallery: A collection of team photos and events.
 
-### Compile and Hot-Reload for Development
+Matches: past match details.
 
-```sh
-yarn dev
-```
+Contact: Contact details for inquiries and feedback.
 
-### Compile and Minify for Production
+⚙️ Technologies Used
 
-```sh
-yarn build
-```
+Frontend: Vue.js (Vue 3 Composition API)
+
+Styling: CSS (Scoped styles, Flexbox, Grid)
+
+Deployment: Netlify (Continuous deployment from GitHub)
+
+📌 Notes
+
+This project is a frontend-only application with no backend or database integration.
+
+Built to practice Vue.js and modern frontend development practices.
+
+Deployed on Netlify for easy hosting and continuous deployment.
